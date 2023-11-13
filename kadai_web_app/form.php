@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PHP基礎編</title>
+</head>
+<body>
+  <h2>社員情報入力フォーム</h2>
+
+  <form action="confirm.php" method="post">
+    <table>
+      <tr>
+        <td>社員名<td>
+        <td>
+          <input type="text" name="staff_name">
+        </td>
+      </tr>
+      <tr>
+        <td>年齢<td>
+        <td>
+          <input type="text" name="age">
+        </td>
+      </tr>
+      <tr>
+        <td>所属部署<td>
+        <td>
+          <select name="section">
+            <option value="開発部">開発部</option>
+            <option value="営業部">営業部</option>
+            <option value="人事部">人事部</option>
+          </select>
+        </td>
+      </tr>
+
+    </table>
+
+    <button  type="submit">送信</button>
+
+
+
+
+  </form>
+</body>
+ 
+</html>
